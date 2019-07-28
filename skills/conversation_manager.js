@@ -1,7 +1,7 @@
 resp = require("../response/response.js");
 request = require("request");
 sync = require('sync-request');
-const CONVERSATION_MANAGER_ENDPOINT = "https://rlet-bot.herokuapp.com/api/LT-conversation-manager"
+const CONVERSATION_MANAGER_ENDPOINT = "https://obscure-escarpment-82854.herokuapp.com/"
 const RATING_CONVERSATION_ENDPOINT = "https://rlet-bot.herokuapp.com/api/LT-save-rating-conversation"
 
 const ATTR_LIST = ["interior_floor", "interior_room", "legal", "orientation", "position", "realestate_type", "surrounding_characteristics", "surrounding_name", "surrounding", "transaction_type"];
